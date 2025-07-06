@@ -21,10 +21,10 @@ This project analyzes a large digital marketing funnel dataset to pinpoint where
 All steps are contained in one Excel file, each as a separate sheet:
 
 - **EDA & Funnel Summary:** Totals, averages, medians, and funnel conversion rates with drop-off chart
-- **KPI Breakdown 1:** Channel KPI analysis (CPA, ROAS by Channel)
-- **KPI Breakdown 2:** Device KPI analysis
-- **KPI Breakdown 3:** Country KPI analysis (including outlier notes)
-- **KPI Breakdown 4:** Ad Creative KPI analysis
+- **Channel KPI Breakdown:** Channel KPI analysis (CPA, ROAS by Channel)
+- **Device KPI Breakdown:** Device KPI analysis
+- **Country KPI Breakdown:** Country KPI analysis (including outlier notes)
+- **Ad Creative KPI Breakdown:** Ad Creative KPI analysis
 - **Funnel Comparison by Segment:** Funnel drop-off visualized by Country & Channel
 - **Trend Over Time:** Monthly trend analysis (by Channel)
 - **Segment & Trend Analysis:** High/low performing segments, trend commentary, outlier review
@@ -67,4 +67,5 @@ All steps are contained in one Excel file, each as a separate sheet:
 ```text
 /project-root/
 ├── Marketing_Funnel_Conversion_Analysis.xlsx  # All analysis in one file (multiple sheets)
+├── Report.pdf
 ├── README.md
